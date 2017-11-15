@@ -31,6 +31,10 @@ def move(index,player)
   @board[index] = player
 end
 
+def position_taken?(index)
+  @board[index]== "X" || board[index] == "O"
+end
+
 
 
 
